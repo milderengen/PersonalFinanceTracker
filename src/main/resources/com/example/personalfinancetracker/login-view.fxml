@@ -17,7 +17,7 @@
 
 <TextField fx:id="usernameField" promptText="Username" />
 <PasswordField fx:id="passwordField" promptText="Password" />
-
+<Label fx:id="feedbackLabel" text="" style="-fx-text-fill: red;" />
 <Button text="Login" fx:id="loginButton" onAction="#handleLogin"/>
 
 <Label fx:id="errorMessage" textFill="RED"/>

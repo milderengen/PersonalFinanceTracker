@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1cde272-88ac-442d-b303-e015852399cc" name="Changes" comment="Creating base of the project, checking all dependencies, adding database to the mix, creating Classes for future Elements">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/DAO/expenseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/DAO/usersDAO.java" afterDir="false" />
+    <list default="true" id="c1cde272-88ac-442d-b303-e015852399cc" name="Changes" comment="Creating controllers, connection with database, fixing things">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/controllers/contentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/content-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/registration-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/models/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/models/Expense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/DAO/usersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/DAO/usersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/controllers/RegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/login-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692883135520</updated>
-      <workItem from="1692883136687" duration="7957000" />
+      <workItem from="1692883136687" duration="12635000" />
     </task>
     <task id="LOCAL-00001" summary="Creating base of the project, checking all dependencies, adding database to the mix, creating Classes for future Elements">
       <created>1692887082314</created>
@@ -67,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692887082314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating controllers, connection with database, fixing things">
+      <created>1692892297707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692892297707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +91,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating base of the project, checking all dependencies, adding database to the mix, creating Classes for future Elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating base of the project, checking all dependencies, adding database to the mix, creating Classes for future Elements" />
+    <MESSAGE value="Creating controllers, connection with database, fixing things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating controllers, connection with database, fixing things" />
   </component>
 </project>

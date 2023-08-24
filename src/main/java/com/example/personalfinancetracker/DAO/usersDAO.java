@@ -31,4 +31,14 @@ public class usersDAO {
             return null;  // or handle exception in a manner fitting your use case
         }
     }
+    public Boolean existsInDB(String username){
+        User user = findByUsername(username);
+        if(user==null){
+            return false;
+        }
+        return true;
+    }
+    public void saveToDb(User user){
+
+    }
 }

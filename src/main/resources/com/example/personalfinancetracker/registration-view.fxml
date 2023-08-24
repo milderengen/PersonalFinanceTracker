@@ -8,18 +8,18 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.personalfinancetracker.controllers.LoginController"
+            fx:controller="com.example.personalfinancetracker.controllers.RegistrationController"
             prefHeight="400.0" prefWidth="600.0">
-
     <VBox alignment="CENTER" spacing="20" xmlns:fx="http://javafx.com/fxml">
         <Label text="Login" style="-fx-font-size: 24px;"/>
 
         <TextField fx:id="usernameField" promptText="Username" />
+        <TextField fx:id="age" promptText="Age" />
         <PasswordField fx:id="passwordField" promptText="Password" />
+        <PasswordField fx:id="passwordField2" promptText="Repeat password" />
         <Label fx:id="feedbackLabel" text="" style="-fx-text-fill: red;" />
-        <Button text="Login" fx:id="loginButton" onAction="#handleLogin"/>
+        <Button text="Register" fx:id="loginButton" onAction="#handleRegistration"/>
 
         <Label fx:id="errorMessage" textFill="RED"/>
     </VBox>
 </AnchorPane>
-

@@ -3,7 +3,8 @@ Personal Finance Tracker project.
 Technologies used:
 - Hibernate
 - PostgreSQL
-- JSF
+- JavaFX
+- Maven
 
 Planned functionality:
 - Login and register of users

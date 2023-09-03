@@ -16,6 +16,7 @@
         <!-- Add your entity classes here -->
         <mapping class="com.example.personalfinancetracker.models.User"/>
         <mapping class="com.example.personalfinancetracker.models.Expense"/>
+        <mapping class="com.example.personalfinancetracker.models.Income"/>
     </session-factory>
 
 </hibernate-configuration>

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1cde272-88ac-442d-b303-e015852399cc" name="Changes" comment="Creating registration controller and fxml file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/ENUM/TYPE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/Objectables/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/Objectables/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/Objectables/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/models/Income.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/Objectables/Expense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/models/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/personalfinancetracker/models/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/content-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/content-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/personalfinancetracker/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,6 +60,8 @@
       <workItem from="1692883136687" duration="12797000" />
       <workItem from="1692988118668" duration="606000" />
       <workItem from="1693575820381" duration="4682000" />
+      <workItem from="1693660369975" duration="4481000" />
+      <workItem from="1693754408676" duration="3223000" />
     </task>
     <task id="LOCAL-00001" summary="Creating base of the project, checking all dependencies, adding database to the mix, creating Classes for future Elements">
       <created>1692887082314</created>

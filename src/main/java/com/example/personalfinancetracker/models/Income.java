@@ -7,64 +7,23 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.util.Date;
+
 @Entity
-public class Expense {
+public class Income {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long ID;
-    Date startingDate;
-    Date endingDate;
-    TYPE Type;
-    long Cost;
-    String Name;
+    TYPE type;
+    long amount;
+    String name;
     long UserID;
+
     public long getID() {
         return ID;
     }
 
     public void setID(long ID) {
         this.ID = ID;
-    }
-    public Date getStartingDate() {
-        return startingDate;
-    }
-
-    public void setStartingDate(Date startingDate) {
-        this.startingDate = startingDate;
-    }
-
-    public Date getEndingDate() {
-        return endingDate;
-    }
-
-    public void setEndingDate(Date endingDate) {
-        this.endingDate = endingDate;
-    }
-
-
-
-    public TYPE getType() {
-        return Type;
-    }
-
-    public void setType(TYPE type) {
-        Type = type;
-    }
-
-    public long getCost() {
-        return Cost;
-    }
-
-    public void setCost(long cost) {
-        Cost = cost;
-    }
-
-    public String getName() {
-        return Name;
-    }
-
-    public void setName(String name) {
-        Name = name;
     }
 
     public long getUserID() {
@@ -73,5 +32,48 @@ public class Expense {
 
     public void setUserID(long userID) {
         UserID = userID;
+    }
+
+    public Date getStartingDate() {
+        return StartingDate;
+    }
+
+    public void setStartingDate(Date startingDate) {
+        StartingDate = startingDate;
+    }
+
+    public Date getEndingDate() {
+        return EndingDate;
+    }
+
+    public void setEndingDate(Date endingDate) {
+        EndingDate = endingDate;
+    }
+
+    Date StartingDate;
+    Date EndingDate;
+
+    public TYPE getType() {
+        return type;
+    }
+
+    public void setType(TYPE type) {
+        this.type = type;
+    }
+
+    public long getAmount() {
+        return amount;
+    }
+
+    public void setAmount(long amount) {
+        this.amount = amount;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

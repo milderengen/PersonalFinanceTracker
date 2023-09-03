@@ -6,9 +6,30 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import javafx.scene.chart.PieChart?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.example.personalfinancetracker.ContentView"
             prefHeight="400.0" prefWidth="600.0">
-
+            <VBox alignment="CENTER" spacing="20" xmlns:fx="http://javafx.com/fxml">
+                <HBox fx:id="Header">
+                    <Label text="Personal Expense tracker"/>
+                    <Button fx:id="settingsButton" text="Settings"/>
+                    <Button fx:id="logoutButton" text="Log out"/>
+                </HBox>
+                <HBox fx:id="personalInfo">
+                    <Label fx:id="usernameLabel" style="-fx-font-size: 24px;"/>
+                    <Label fx:id="incomeLabel"/>
+                    <Label fx:id="balanceLabel"/>
+                </HBox>
+                <HBox fx:id="expensesAdage">
+                    <TextField fx:id="nameOfExpense"/>
+                    <ComboBox/>
+                    <Button fx:id="addExpenseButton" text="Add expense"/>
+                </HBox>
+                <HBox>
+                    <Label text="Your expenses on piechart"/>
+                    <PieChart fx:id="expensePieChart"/>
+                </HBox>
+            </VBox>
 </AnchorPane>
